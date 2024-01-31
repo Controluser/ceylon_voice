@@ -193,11 +193,11 @@ main section {
 }
 
 .row-posts .row-post {
-  height: 76px;
+  min-height: 76px;
   width: 94%;
   display: flex;
   margin-top: 16px;
-  align-items: center;
+/* align-items: center;*/
 }
 
 .row-posts .row-post .featured-image {
@@ -276,11 +276,11 @@ main section {
 }
 
 .recent-posts .recent-post {
-  height: 76px;
+  height: 80px;
   width: 94%;
   display: flex;
-  margin-top: 16px;
-  align-items: center;
+  margin-top: 13px;
+ /* align-items: center;*/
   border-top: 1px solid rgba(0, 0, 0, 0.1);
   padding: 10px 0 0 0;
   
@@ -292,7 +292,7 @@ main section {
   border-radius: 5px;
   margin-right: 15px;
   box-shadow: 0 1px 4px rgba(153, 153, 153, 1);
-  
+  align-self: center;
 }
 
 .recent-posts .recent-post .featured-image img {
@@ -318,4 +318,62 @@ main section {
 .recent-posts .recent-post .recent-post-title a:hover {
   color: var(--main-color);
 }
+
+.recent-post .recent-post-title .time-posted {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  margin-bottom: 3px;
+  cursor: none;
+}
+
+/* PAGINATION*/
+
+.news-pages-nav {
+  width: 92%;
+  min-height: 110px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  margin-top: 10px;
+  
+  
+}
+
+
+.news-pages-nav div {
+  margin-right: 4px;
+  
+}
+
+.news-pages-nav div button {
+  color: #000;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  width: 33px;
+  height: 33px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  background: transparent;
+  
+}
+
+.news-pages-nav div a:hover {
+  width: 33px;
+  height: 33px;
+  background: var(--main-color);
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+}
+
+.news-pages-nav .next-page-nav {
+  margin-right: 0;
+}
+
 
