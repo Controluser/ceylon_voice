@@ -86,7 +86,7 @@ body {
   display: flex;
   align-items: center;
   overflow-x: scroll;
-  padding: 0 8px;
+  padding: 0 8px 0 8px;
   -ms-overflow-style: none;
   scrollbar-width: none;
   position: relative;
@@ -120,6 +120,10 @@ body {
   margin-right: 25px;
   padding: 13px 6px 11px 6px;
   
+}
+
+.nav-bar nav li a:hover {
+  border-bottom: 4px solid var(--main-color);
 }
 
 .nav-bar nav li a.active {
@@ -397,7 +401,7 @@ main section {
   
 }
 
-.news-pages-nav div button {
+.news-pages-nav div .btn,.right-btn,.left-btn {
   color: #000;
   border: 1px solid rgba(0, 0, 0, 0.3);
   width: 33px;
@@ -406,12 +410,13 @@ main section {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Signika Negative','Mukta Malar', sans-serif;
   font-weight: 600;
-  font-size: 16px;
+  font-size: 15px;
   background: transparent;
   
 }
+
 
 .news-pages-nav div a:hover {
   width: 33px;
@@ -426,9 +431,10 @@ main section {
   margin-right: 0;
 }
 
-.news-pages-nav .btn1 {
+.news-pages-nav .page-one .active {
   background: var(--main-color);
   color: #fff;
+  border: none;
 }
 
 /*FOOTER SECTION*/
