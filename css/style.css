@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Mukta+Malar:wght@400;500;600;700&family=Noto+Sans+Tamil:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Signika+Negative:wght@300..700&display=swap');
+
 :root {
   --main-color: #A90707;
   --second-color: #1F2021;
@@ -7,6 +8,7 @@
   --footer-top: #27292A;
   --footer-bottom: #1F2021;
 }
+
 * {
   margin: 0;
   padding: 0;
@@ -56,18 +58,47 @@ body {
   position: absolute;
   top: 100%;
   right: 0;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hamburger-nav .hamburger-menu .menu-links li a {
+  width: 92%;
+  color: #000;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 600;
+  padding-left: 5px;
+  margin: 16px 0;
+  text-decoration: none;
+}
+
+.hamburger-nav .hamburger-menu .menu-links li a:active {
+  border-left: 4px solid var(--main-color);
+}
+
+.hamburger-nav .hamburger-menu .menu-links li a.active {
+  border-left: 4px solid var(--main-color);
+}
+
+.hamburger-nav .hamburger-menu .menu-links li {
+  width: 96%;
+  border-bottom: 1px solid rgba(0, 0, 0, .2);
 }
 
 .hamburger-nav .hamburger-menu .menu-links.open {
   max-height: 100vh;
 }
-.hamburger-nav .hamburger-menu .hamburger-icon  {
+
+.hamburger-nav .hamburger-menu .hamburger-icon {
   color: #FFFFFF;
   font-size: 45px;
   cursor: pointer;
   display: flex;
   align-items: center;
-  
+
 }
 
 .nav-bar {
@@ -97,7 +128,7 @@ body {
   height: 100%;
   width: 40px;
   right: 0;
-  background: linear-gradient(to left, rgba(255, 255, 255, 0.95) 50%, rgba(255, 255, 255, .1) );
+  background: linear-gradient(to left, rgba(255, 255, 255, 0.95) 50%, rgba(255, 255, 255, .1));
   z-index: 2;
 }
 
@@ -107,8 +138,8 @@ body {
 
 .nav-bar nav li {
   list-style-type: none;
-  
-  
+
+
 }
 
 .nav-bar nav li a {
@@ -118,7 +149,7 @@ body {
   font-size: 16px;
   margin-right: 25px;
   padding: 13px 6px 11px 6px;
-  
+
 }
 
 .nav-bar nav li a:hover {
@@ -139,6 +170,7 @@ main section {
   flex-direction: column;
   align-items: center;
 }
+
 /*Main Content*/
 /*IMPORTANT NEWS*/
 .important-news {
@@ -168,6 +200,7 @@ main section {
   border-radius: 5px;
   position: relative;
 }
+
 .important-news .feature-image-container .imp-news {
   position: absolute;
   background: var(--main-color);
@@ -191,12 +224,13 @@ main section {
 .imp-news-data-container .post-title a:hover {
   text-decoration: underline;
 }
+
 .imp-news-data-container .post-title {
   width: 95%;
   margin-bottom: 5px;
 }
 
-.imp-news-data-container  {
+.imp-news-data-container {
   width: 94%;
 }
 
@@ -207,6 +241,7 @@ main section {
   margin: 5px 0 3px 0;
   color: #888888;
 }
+
 /*ROW POSTS*/
 .row-posts {
   width: 92%;
@@ -246,7 +281,7 @@ main section {
   border-top: 1px solid rgba(0, 0, 0, 0.1);
   padding-top: 10px;
   margin-top: 13px;
-/* align-items: center;*/
+  /* align-items: center;*/
 }
 
 .row-posts .row-post .featured-image {
@@ -255,7 +290,7 @@ main section {
   border-radius: 5px;
   margin-right: 15px;
   box-shadow: 0 1px 4px rgba(153, 153, 153, 1);
-  
+
 }
 
 .row-posts .row-post .featured-image img {
@@ -304,7 +339,7 @@ main section {
   margin-top: 15px;
   display: flex;
   align-items: center;
- justify-content: space-around;
+  justify-content: space-around;
 }
 
 .recent-posts .recent-posts-cat a {
@@ -316,7 +351,7 @@ main section {
   font-size: 16px;
   margin-right: 12px;
   text-decoration: none;
-  
+
 }
 
 .recent-posts .recent-posts-cat a.active {
@@ -332,10 +367,10 @@ main section {
   width: 94%;
   display: flex;
   margin-top: 10px;
- /* align-items: center;*/
+  /* align-items: center;*/
   border-top: 1px solid rgba(0, 0, 0, 0.1);
   padding: 10px 0 10px 0;
-  
+
 }
 
 .recent-posts .recent-post .featured-image {
@@ -390,17 +425,19 @@ main section {
   font-size: 16px;
   margin-top: 15px;
   border-top: 1px solid rgba(0, 0, 0, 0.1);
-  
-  
+
+
 }
 
 
 .news-pages-nav div {
   margin-right: 4px;
-  
+
 }
 
-.news-pages-nav div .btn,.right-btn,.left-btn {
+.news-pages-nav div .btn,
+.right-btn,
+.left-btn {
   color: #000;
   border: 1px solid rgba(0, 0, 0, 0.3);
   width: 33px;
@@ -409,11 +446,11 @@ main section {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: 'Signika Negative','Mukta Malar', sans-serif;
+  font-family: 'Signika Negative', 'Mukta Malar', sans-serif;
   font-weight: 600;
   font-size: 15px;
   background: transparent;
-  
+
 }
 
 
@@ -439,7 +476,7 @@ main section {
 /*FOOTER SECTION*/
 
 main footer {
-  
+
   width: 100%;
   height: 180px;
   margin-top: 30px;
@@ -461,7 +498,7 @@ footer .footer-top a {
   text-decoration: none;
   letter-spacing: 1.5px;
   font-size: 12px;
-  margin:0 6px;
+  margin: 0 6px;
 }
 
 footer .footer-top .about-contact-userpolicy {
@@ -491,7 +528,7 @@ footer .footer-bottom .copyrights p a {
   text-decoration: none;
   color: #999999;
   font-weight: 500;
-  
+
 }
 
 footer .footer-bottom .social-icons {
@@ -517,7 +554,7 @@ footer .footer-bottom .social-icons a {
 
 footer .footer-bottom .social-icons .bxl-facebook {
   background: #316FF6;
-} 
+}
 
 footer .footer-bottom .social-icons .bxl-youtube {
   background: #FF0000;
