@@ -81,12 +81,11 @@ body {
 }
 
 .nav-bar nav {
-  width: 100%;
   height: 100%;
   display: flex;
   align-items: center;
   overflow-x: scroll;
-  padding: 0 8px 0 8px;
+  padding: 0 20px 0 8px;
   -ms-overflow-style: none;
   scrollbar-width: none;
   position: relative;
@@ -116,7 +115,7 @@ body {
   color: #000;
   text-decoration: none;
   font-weight: 700;
-  font-size: 17px;
+  font-size: 16px;
   margin-right: 25px;
   padding: 13px 6px 11px 6px;
   
@@ -460,9 +459,9 @@ footer .footer-top a {
   font-family: 'Signika Negative', sans-serif;
   text-transform: uppercase;
   text-decoration: none;
-  letter-spacing: 2px;
-  font-size: 14px;
-  margin:0 5px;
+  letter-spacing: 1.5px;
+  font-size: 12px;
+  margin:0 6px;
 }
 
 footer .footer-top .about-contact-userpolicy {
@@ -485,7 +484,7 @@ footer .footer-bottom .copyrights {
   margin: 8px 0 8px 0;
   font-family: 'Signika Negative', sans-serif;
   color: #999999;
-  font-size: 17px;
+  font-size: 14px;
 }
 
 footer .footer-bottom .copyrights p a {
@@ -497,18 +496,18 @@ footer .footer-bottom .copyrights p a {
 
 footer .footer-bottom .social-icons {
   display: flex;
-  width: 68px;
+  width: 58px;
   justify-content: space-between;
 }
 
 footer .footer-bottom .social-icons i {
-  width: 30px;
-  height: 30px;
+  width: 26px;
+  height: 26px;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 23px;
+  font-size: 18px;
   color: #FFFFFF;
 }
 
