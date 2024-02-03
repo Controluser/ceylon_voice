@@ -26,7 +26,7 @@ body {
 /*Menu and Nav Bars*/
 .menu-bar {
   width: 100%;
-  height: 56px;
+  height: 3.5rem;
   background: var(--main-color);
   display: flex;
   justify-content: space-between;
@@ -42,7 +42,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 0 10px;
+  margin: 0 0.6rem;
 }
 
 .hamburger-nav #logo {
@@ -68,10 +68,10 @@ body {
   width: 92%;
   color: #000;
   display: inline-block;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 600;
   padding-left: 5px;
-  margin: 16px 0;
+  margin: 1rem 0;
   text-decoration: none;
 }
 
@@ -94,7 +94,7 @@ body {
 
 .hamburger-nav .hamburger-menu .hamburger-icon {
   color: #FFFFFF;
-  font-size: 45px;
+  font-size: 2.8rem;
   cursor: pointer;
   display: flex;
   align-items: center;
@@ -116,7 +116,7 @@ body {
   display: flex;
   align-items: center;
   overflow-x: scroll;
-  padding: 0 20px 0 8px;
+  padding: 0 20px 0 0.5rem;
   -ms-overflow-style: none;
   scrollbar-width: none;
   position: relative;
@@ -146,7 +146,7 @@ body {
   color: #000;
   text-decoration: none;
   font-weight: 700;
-  font-size: 16px;
+  font-size: 1rem;
   margin-right: 25px;
   padding: 13px 6px 11px 6px;
 
@@ -177,9 +177,9 @@ main section {
   width: 92%;
   min-height: 300px;
   margin-top: 30px;
-  padding: 3px 5px 8px;
+  padding: 3px 5px 0.5rem;
   background: #FFFFFF;
-  border-radius: 8px;
+  border-radius: 0.5rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -195,7 +195,7 @@ main section {
 .important-news .feature-image-container {
   width: 94%;
   height: 240px;
-  margin: 10px 0 8px 0;
+  margin: 10px 0 0.5rem 0;
   box-shadow: 0 3px 4px rgba(153, 153, 153, .6);
   border-radius: 5px;
   position: relative;
@@ -210,14 +210,14 @@ main section {
   bottom: 18px;
   left: 12px;
   border-radius: 5px;
-  font-size: 15px;
+  font-size: 1rem;
 }
 
 .imp-news-data-container .post-title a {
   font-weight: 700;
   color: rgba(51, 51, 51, 1);
-  font-size: 19px;
-  line-height: 25px;
+  font-size: 1.2rem;
+  line-height: 1.6rem;
   text-decoration: none
 }
 
@@ -237,8 +237,8 @@ main section {
 .imp-news-data-container .time-posted {
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
-  font-size: 11px;
-  margin: 5px 0 3px 0;
+  font-size: 0.65rem;
+  margin: 0.3rem 0 0.2rem 0;
   color: #888888;
 }
 
@@ -249,7 +249,7 @@ main section {
   margin-top: 30px;
   padding: 3px 5px 20px;
   background: rgba(255, 255, 255, 1);
-  border-radius: 8px;
+  border-radius: 0.5rem;
   box-shadow: 0 0px 4px 2px rgba(153, 153, 153, .2);
   display: flex;
   flex-direction: column;
@@ -271,7 +271,7 @@ main section {
 .row-posts .row-posts-cat h3 {
   color: rgba(255, 255, 255, 1);
   font-weight: 600;
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .row-posts .row-post {
@@ -308,8 +308,8 @@ main section {
   color: var(--post-title);
   text-decoration: none;
   font-weight: 600;
-  font-size: 15px;
-  line-height: 10px;
+  font-size: 1rem;
+  line-height: 0.6rem;
   transition: all 0.3s ease-in-out;
 }
 
@@ -322,9 +322,9 @@ main section {
   width: 92%;
   min-height: 500px;
   margin-top: 30px;
-  padding: 3px 5px 8px;
+  padding: 3px 5px 0.5rem;
   background: rgba(255, 255, 255, 1);
-  border-radius: 8px;
+  border-radius: 0.5rem;
   box-shadow: 0 0px 4px 2px rgba(153, 153, 153, .2);
   display: flex;
   flex-direction: column;
@@ -348,8 +348,8 @@ main section {
   justify-content: center;
   color: rgba(255, 255, 255, 1);
   font-weight: 600;
-  font-size: 16px;
-  margin-right: 12px;
+  font-size: 1rem;
+  margin-right: 0.7rem;
   text-decoration: none;
 
 }
@@ -397,8 +397,8 @@ main section {
   color: var(--post-title);
   text-decoration: none;
   font-weight: 600;
-  font-size: 15px;
-  line-height: 10px;
+  font-size: 1rem;
+  line-height: 0.5rem;
   transition: all 0.3s ease-in-out;
 }
 
@@ -409,7 +409,7 @@ main section {
 .recent-post .recent-post-title .time-posted p {
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
-  font-size: 10px;
+  font-size: 0.55rem;
   cursor: none;
   color: #888888;
 }
@@ -418,12 +418,12 @@ main section {
 
 .news-pages-nav {
   width: 92%;
-  min-height: 100px;
+  min-height: 6.25rem;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 16px;
-  margin-top: 15px;
+  font-size: 1rem;
+  margin-top: 1rem;
   border-top: 1px solid rgba(0, 0, 0, 0.1);
 
 
@@ -431,7 +431,7 @@ main section {
 
 
 .news-pages-nav div {
-  margin-right: 4px;
+  margin-right: 0.25rem;
 
 }
 
@@ -440,15 +440,15 @@ main section {
 .left-btn {
   color: #000;
   border: 1px solid rgba(0, 0, 0, 0.3);
-  width: 33px;
-  height: 33px;
+  width: 2rem;
+  height: 2rem;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
   font-family: 'Signika Negative', 'Mukta Malar', sans-serif;
   font-weight: 600;
-  font-size: 15px;
+  font-size: 1rem;
   background: transparent;
 
 }
@@ -497,12 +497,12 @@ footer .footer-top a {
   text-transform: uppercase;
   text-decoration: none;
   letter-spacing: 1.5px;
-  font-size: 12px;
-  margin: 0 6px;
+  font-size: 0.8rem;
+  margin: 0 0.4rem;
 }
 
 footer .footer-top .about-contact-userpolicy {
-  padding-bottom: 5px;
+  padding-bottom: 0.30rem;
 }
 
 footer .cookiepolicy-privacypolicy {
@@ -518,10 +518,10 @@ footer .footer-bottom {
 }
 
 footer .footer-bottom .copyrights {
-  margin: 8px 0 8px 0;
+  margin: 0.5rem 0 0.5rem 0;
   font-family: 'Signika Negative', sans-serif;
   color: #999999;
-  font-size: 14px;
+  font-size: 0.9rem;
 }
 
 footer .footer-bottom .copyrights p a {
@@ -533,18 +533,18 @@ footer .footer-bottom .copyrights p a {
 
 footer .footer-bottom .social-icons {
   display: flex;
-  width: 58px;
+  width: 3.6rem;
   justify-content: space-between;
 }
 
 footer .footer-bottom .social-icons i {
-  width: 26px;
-  height: 26px;
+  width: 1.65rem;
+  height: 1.65rem;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 18px;
+  font-size: 1.15rem;
   color: #FFFFFF;
 }
 
