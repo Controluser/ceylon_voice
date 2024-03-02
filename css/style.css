@@ -178,7 +178,7 @@ main section {
 
 /*Main Content*/
 /*IMPORTANT NEWS*/
-.important-news {
+.important-news, .wrapper {
   width: 92%;
   min-height: 300px;
   margin-top: 30px;
